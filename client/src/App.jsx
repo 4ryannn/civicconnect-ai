@@ -1,7 +1,11 @@
 import Navbar from "./components/layout/Navbar";
-import Hero from "./components/layout/Hero";
-import Features from "./components/layout/Features";
-import HowItWorks from "./components/layout/HowItWorks";
+import Hero from "./components/sections/Hero";
+import Features from "./components/sections/Features";
+import HowItWorks from "./components/sections/HowItWorks";
+import DashboardPreview from "./components/sections/DashboardPreview";
+import OurImpact from "./components/sections/OurImpact";
+import FAQ from "./components/sections/FAQ";
+import Footer from "./components/sections/Footer";
 
 function App() {
   return (
@@ -10,6 +14,10 @@ function App() {
       <Hero />
       <Features />
       <HowItWorks />
+      <DashboardPreview />
+      <OurImpact />
+      <FAQ />
+      <Footer />
     </div>
   );
 }
